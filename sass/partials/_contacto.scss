@@ -1,0 +1,12 @@
+.background_contacto{
+    background-image: url("../../img/background_contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    .opacidad-bg{
+        opacity: 85%;
+    }
+}
+

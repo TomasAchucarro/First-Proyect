@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "header" "section" "footer";
+}
+body header {
+  padding: 3%;
+  grid-area: header;
+}
+body .parallax_index {
+  background-image: url("/img/background_index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+body .parallax_index .img_w {
+  width: 70%;
+}
+@media (min-width: 576px) {
+  body .parallax_index .img_w {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  body .parallax_index .img_w {
+    width: 30%;
+  }
+}
+body section {
+  grid-area: section;
+}
+body section .contenedor_texto {
+  display: flex;
+  justify-content: center;
+  margin: 5% 10%;
+}
+body section p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(118, 54, 54);
+  font-style: italic;
+  font-size: 0.9rem;
+  font-weight: 250;
+}
+@media (min-width: 1024px) {
+  body section p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1024px) {
+  body a:hover {
+    transform: scale(1.2);
+  }
+}
+body footer {
+  grid-area: footer;
+  padding-top: 10%;
+}
+body footer .icon_social {
+  font-size: 3rem;
+}
+@media (min-width: 1024px) {
+  body footer .icon_social {
+    font-size: 5rem;
+  }
+}
+
+.background_contacto {
+  background-image: url("../../img/background_contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.background_contacto .opacidad-bg {
+  opacity: 85%;
+}
+
+.parallax_galeria {
+  background-image: url("../../img/background_Galeria.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.background_sobrenosotros {
+  background-image: url("../../img/background_SobreNosotros.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.title_weight {
+  font-weight: 250;
+}
+
+.container_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10% 0;
+}
+.container_cards .card {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 270px;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 0;
+  box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #000;
+}
+.container_cards .card p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(118, 54, 54);
+  font-style: italic;
+  font-size: 0.9rem;
+  font-weight: 250;
+}
+@media (min-width: 1024px) {
+  .container_cards .card p {
+    font-size: large;
+  }
+}
+@media (min-width: 576px) {
+  .container_cards .card {
+    height: 110px;
+  }
+}
+@media (min-width: 1024px) {
+  .container_cards .card {
+    width: 30%;
+    height: 22rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container_cards {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0;
+  }
+  .margin_container {
+    margin: 5% 5%;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// vista mobile
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "section"
+    "footer";
+
+  header {
+    padding: 3%;
+    grid-area: header;
+  }
+  .parallax_index {
+    background-image: url("/img/background_index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    .img_w {
+      width: 70%;
+    }
+    @media (min-width: 576px) {
+      .img_w {
+        width: 40%;
+      }
+    }
+    @media (min-width: 1024px) {
+      .img_w {
+        width: 30%;
+      }
+    }
+  }
+
+  section {
+    grid-area: section;
+    .contenedor_texto {
+      display: flex;
+      justify-content: center;
+      margin: 5% 10%;
+    }
+    p {
+      text-align: center;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(118, 54, 54);
+      font-style: italic;
+      font-size: 0.9rem;
+      font-weight: 250;
+    }
+    @media (min-width: 1024px) {
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    a:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  footer {
+    grid-area: footer;
+    padding-top: 10%;
+    .icon_social {
+      font-size: 3rem;
+    }
+    @media (min-width: 1024px) {
+      .icon_social {
+        font-size: 5rem;
+      }
+    }
+  }
+}
