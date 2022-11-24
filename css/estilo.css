@@ -32,6 +32,9 @@ body .parallax_index .img_w {
     width: 30%;
   }
 }
+body .parallax_index .blur {
+  filter: blur(3px);
+}
 body section {
   grid-area: section;
 }
