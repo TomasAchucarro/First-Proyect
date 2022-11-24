@@ -4,5 +4,37 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 100vh;
+    min-height: 30vh;
+}
+.contenedor_imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    padding: 5% 0%;
+    .img_w{
+        width:85%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+    }
+    @media(min-width: 576px){
+        .img_w{
+            width: 33%;
+            border-radius: 0;
+            margin-bottom: 0;
+        }
+    }
+    @media(min-width:1024px){
+        .img_w:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+@media(min-width:576px){
+    .contenedor_imgs{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 3% 3%;
+    }
 }
