@@ -1,43 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/pastel.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/pastel.png" />
     <!-- BOOSTRAP_ICONS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
     <!-- BOOSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css" />
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light rounded-3">
-            <div class="container-fluid">
-              <span class="navbar-brand">Navbar5</span>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-lg-flex justify-content-end align-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="../index.html">Inicio</a>
-                  <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
-                  <a class="nav-link" href="galeria.html">Galeria</a>
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                  <a class="nav-link active" href="novedades.html">Novedades</a>
-                  <href></href>
-                </div>
-              </div>
+  </head>
+  <body>
+    <header class="background_novedades">
+      <nav class="navbar navbar-expand-lg bg-light rounded-3">
+        <div class="container-fluid">
+          <span class="navbar-brand">OLAST</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-lg-flex justify-content-end align-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" href="../index.html">Inicio</a>
+              <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
+              <a class="nav-link" href="galeria.html">Galeria</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+              <a class="nav-link active" href="novedades.html">Novedades</a>
+              <href></href>
             </div>
-          </nav>
+          </div>
+        </div>
+      </nav>
     </header>
-    <footer class="d-flex align-items-center justify-content-center">
+    <main class="background_novedades">
+      <div class="bg-dark pb-3 div_novedades">
+      <h1 class="title_weight text-center mt-2 text-light">Nuestras novedades</h1>
+      <div
+        class="container_cards2 d-flex justify-content-lg-around flex-lg-row flex-column align-items-center"
+      >
+        <div class="card">
+          <div class="card-details">
+            <p class="text-title text-center font_style">
+              Probá nuestras nuevas tortas!
+            </p>
+            <p class="text-body text-center">Nuestras nuevas temáticas de minion y cars ya están listas...¡probalas ya!</p>
+          </div>
+          <button class="card-button">Más información</button>
+        </div>
+        <div class="card">
+          <div class="card-details">
+            <p class="text-title text-center font_style">Temática Halloween</p>
+            <p class="text-body text-center">No hay mejor manera que disfrutar éste Halloween con nuestras nuevas escalofriantes tortas...¡saborea nuestros nuevas propuestas!</p>
+          </div>
+          <button class="card-button">Más información</button>
+        </div>
+        <div class="card">
+          <div class="card-details">
+            <p class="text-title text-center font_style">Temática Navidad</p>
+            <p class="text-body text-center">!Se acerca la navidad y nuestras temáticas navideñas también!...por eso te invitamos a que las pruebes</p>
+          </div>
+          <button class="card-button">Más información</button>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer
+      class="d-flex align-items-center justify-content-center background_novedades"
+    >
       <div class="d-flex justify-content-center gap-5">
         <a target="_blank" href="https://www.facebook.com/"
           ><i class="bi bi-facebook icon_social"></i
@@ -49,6 +99,10 @@
       </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
