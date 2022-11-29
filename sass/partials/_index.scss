@@ -68,6 +68,14 @@ body {
   footer {
     grid-area: footer;
     padding-top: 10%;
+  }
+    .parallax_index_f {
+      background-image: url("/img/background_index.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 45vh;
     .icon_social {
       font-size: 3rem;
     }
@@ -76,5 +84,6 @@ body {
         font-size: 5rem;
       }
     }
-  }
+    }
+  
 }

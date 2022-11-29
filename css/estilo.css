@@ -62,11 +62,19 @@ body footer {
   grid-area: footer;
   padding-top: 10%;
 }
-body footer .icon_social {
+body .parallax_index_f {
+  background-image: url("/img/background_index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 45vh;
+}
+body .parallax_index_f .icon_social {
   font-size: 3rem;
 }
 @media (min-width: 1024px) {
-  body footer .icon_social {
+  body .parallax_index_f .icon_social {
     font-size: 5rem;
   }
 }
