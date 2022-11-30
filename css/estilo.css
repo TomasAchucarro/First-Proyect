@@ -12,7 +12,7 @@ body header {
   grid-area: header;
 }
 body .parallax_index {
-  background-image: url("/img/background_index.jpg");
+  background-image: url("../img/background_index.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -63,7 +63,7 @@ body footer {
   padding-top: 10%;
 }
 body .parallax_index_f {
-  background-image: url("/img/background_index.jpg");
+  background-image: url("../../img/background_index.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -80,7 +80,7 @@ body .parallax_index_f .icon_social {
 }
 
 .background_contacto {
-  background-image: url("../../img/background_contacto.jpg");
+  background-image: url("../img/background_contacto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -92,7 +92,7 @@ body .parallax_index_f .icon_social {
 }
 
 .parallax_galeria {
-  background-image: url("../../img/background_Galeria.jpg");
+  background-image: url("../img/background_galeria.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -135,7 +135,7 @@ body .parallax_index_f .icon_social {
   }
 }
 .background_sobrenosotros {
-  background-image: url("../../img/background_SobreNosotros.jpg");
+  background-image: url("../img/background_sobrenosotros.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -207,7 +207,7 @@ footer .icon_social {
   }
 }
 .background_novedades {
-  background-image: url("../../img/background_novedades.jpg");
+  background-image: url("../img/background_novedades.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
