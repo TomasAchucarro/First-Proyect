@@ -34,10 +34,10 @@
       font-size: 0.9rem;
       font-weight: 250;
     }
-    @media (min-width:1024px){
-        p{
-            font-size: large;
-        }
+    @media (min-width: 1024px) {
+      p {
+        font-size: large;
+      }
     }
   }
   @media (min-width: 576px) {
@@ -50,7 +50,11 @@
       width: 30%;
       height: 22rem;
     }
-    
+  }
+}
+footer {
+  .icon_social {
+    font-size: 3rem;
   }
 }
 @media (min-width: 1024px) {
@@ -62,4 +66,11 @@
   .margin_container {
     margin: 5% 5%;
   }
-}
+  footer{
+    .icon_social {
+      font-size: 5rem;
+    }
+  }
+    }
+  
+
