@@ -63,7 +63,7 @@ body footer {
   padding-top: 10%;
 }
 body .parallax_index_f {
-  background-image: url("../../img/background_index.jpg");
+  background-image: url("../img/background_index.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
