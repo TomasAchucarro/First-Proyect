@@ -147,24 +147,30 @@ body .parallax_index_f .icon_social {
   font-weight: 250;
 }
 
-.container_cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 10% 0;
+.container_cards2 .card2 {
+  width: 280px;
+  height: 355px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  position: relative;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  margin-top: 10%;
 }
-.container_cards .card {
-  display: flex;
-  justify-content: center;
-  width: 70%;
-  height: 270px;
-  background: #fff;
-  border: 3px solid #000;
-  border-radius: 0;
-  box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #000;
+.container_cards2 .card2:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
 }
-.container_cards .card p {
+.container_cards2 .card2 .card-details2 {
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+}
+.container_cards2 .card2 .card-details2 p {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(118, 54, 54);
@@ -172,21 +178,32 @@ body .parallax_index_f .icon_social {
   font-size: 0.9rem;
   font-weight: 250;
 }
-@media (min-width: 1024px) {
-  .container_cards .card p {
-    font-size: large;
-  }
+.container_cards2 .card2 .card-details2 .text-title2 {
+  font-size: 1.5em;
+  font-weight: bold;
 }
-@media (min-width: 576px) {
-  .container_cards .card {
-    height: 110px;
-  }
+.container_cards2 .card2 .card-details2 .font_style {
+  font-size: 18px;
+  font-weight: 700;
 }
-@media (min-width: 1024px) {
-  .container_cards .card {
-    width: 30%;
-    height: 22rem;
-  }
+.container_cards2 .card2 .card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+.container_cards2 .card2:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
 }
 
 footer .icon_social {
@@ -194,14 +211,6 @@ footer .icon_social {
 }
 
 @media (min-width: 1024px) {
-  .container_cards {
-    display: flex;
-    flex-direction: row;
-    margin: 10% 0;
-  }
-  .margin_container {
-    margin: 5% 5%;
-  }
   footer .icon_social {
     font-size: 5rem;
   }
@@ -218,7 +227,7 @@ footer .icon_social {
 .div_novedades {
   opacity: 95%;
 }
-.div_novedades .container_cards2 .card {
+.div_novedades .container_cards2 .card2 {
   width: 280px;
   height: 270px;
   border-radius: 20px;
@@ -229,29 +238,29 @@ footer .icon_social {
   overflow: visible;
   margin-top: 10%;
 }
-.div_novedades .container_cards2 .card:hover {
+.div_novedades .container_cards2 .card2:hover {
   border-color: #008bf8;
   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
 }
-.div_novedades .container_cards2 .card .card-details {
+.div_novedades .container_cards2 .card2 .card-details {
   color: black;
   height: 100%;
   gap: 0.5em;
   display: grid;
   place-content: center;
 }
-.div_novedades .container_cards2 .card .card-details .text-body {
+.div_novedades .container_cards2 .card2 .card-details .text-body2 {
   color: rgb(134, 134, 134);
 }
-.div_novedades .container_cards2 .card .card-details .text-title {
+.div_novedades .container_cards2 .card2 .card-details .text-title2 {
   font-size: 1.5em;
   font-weight: bold;
 }
-.div_novedades .container_cards2 .card .card-details .font_style {
+.div_novedades .container_cards2 .card2 .card-details .font_style {
   font-size: 19px;
   font-weight: 700;
 }
-.div_novedades .container_cards2 .card .card-button {
+.div_novedades .container_cards2 .card2 .card-button {
   transform: translate(-50%, 125%);
   width: 60%;
   border-radius: 1rem;
@@ -266,7 +275,7 @@ footer .icon_social {
   opacity: 0;
   transition: 0.3s ease-out;
 }
-.div_novedades .container_cards2 .card:hover .card-button {
+.div_novedades .container_cards2 .card2:hover .card-button {
   transform: translate(-50%, 50%);
   opacity: 1;
 }

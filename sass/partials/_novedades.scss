@@ -11,7 +11,7 @@
 
 
 .container_cards2 {
-  .card {
+  .card2 {
     width: 280px;
     height: 270px;
     border-radius: 20px;
@@ -33,10 +33,10 @@
       display: grid;
       place-content: center;
 
-      .text-body {
+      .text-body2 {
         color: rgb(134, 134, 134);
       }
-      .text-title {
+      .text-title2 {
         font-size: 1.5em;
         font-weight: bold;
       }
@@ -61,7 +61,7 @@
       transition: 0.3s ease-out;
     }
   }
-  .card:hover .card-button {
+  .card2:hover .card-button {
     transform: translate(-50%, 50%);
     opacity: 1;
   }
